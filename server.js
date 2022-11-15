@@ -31,7 +31,7 @@ app.get('/api/v1/webhook', function(req, res) {
         }
     };
   
-    if (authentication === process.env.API_V1_WEBHOOK_TOKEN) {
+    if (authentication === $API_V1_WEBHOOK_TOKEN) {
         request(options);
         return res.status(200).send({
             response: 'Message sent.',
