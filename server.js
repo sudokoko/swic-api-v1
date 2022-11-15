@@ -45,4 +45,4 @@ app.get('/api/v1/webhook', function(req, res) {
 });
 
 app.listen(process.env.PORT);
-console.log('Server is running on ' + process.env.PORT);
+console.log('Server is running.');
