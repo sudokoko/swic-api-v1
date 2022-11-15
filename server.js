@@ -44,5 +44,5 @@ app.get('/api/v1/webhook', function(req, res) {
     }
 });
 
-app.listen(process.env.PORT);
+app.listen();
 console.log('Server is running.');
